@@ -1,11 +1,14 @@
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-         int totalSum = 0;
+         int totalSum =0; 
+         for(int num : nums){
+            totalSum+=num;
+         }
 
-        for (int num : nums) {
-            totalSum += num;
-        }
+       
+           
+ 
 
         int leftSum = 0;
 
