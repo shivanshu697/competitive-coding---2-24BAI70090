@@ -5,8 +5,8 @@ public:
         mp[0]=1;
         int sum = 0;
         int count =0;
-        for (int x : nums) {
-            sum += x;
+        for (int num : nums) {
+            sum += num;
                if (mp.find(sum - k) != mp.end()) {
                 count += mp[sum - k];
             }
